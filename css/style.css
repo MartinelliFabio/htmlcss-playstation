@@ -1,14 +1,16 @@
 :root {
-    --black: rgba(31, 31, 31, 1);
+    --black: #000000;
+    --light-black: rgba(31, 31, 31, 1);
     --blue: rgba(58, 109, 231, 1);
     --light-grey: rgba(190, 188, 187, 1);
     --dark-blue: rgba(22, 28, 59, 1);
-    --red: rgba(205, 61, 15, 1);
+    --orange: rgba(205, 61, 15, 1);
     --lavish-white: rgba(217, 218, 220, 1);
+    --white: #ffffff;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .my-bg-dark-blue {
@@ -31,3 +33,47 @@ body {
     background-color: var(--black);
 }
 
+.my-bg-white {
+    background-color: var(--white);
+}
+
+.my-bg-orange {
+background-color: var(--orange);
+}
+
+img {
+    width: 100%;
+}
+
+/* ! HEADER */
+.sony {
+    width: 100%;
+}
+
+.sony img {
+    width: 100px;
+}
+
+.lente {
+    width: 30px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* ! MAIN */
+
+/* ! Sezione Hero */
+#hero {
+    min-height: 80vh;
+    background-image: url('../img/jumbo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 450px;
+    padding-bottom: 50px;
+}
+
+/* ! Sezione Carousel */
