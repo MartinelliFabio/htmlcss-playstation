@@ -89,6 +89,15 @@ header {
     padding-bottom: 50px;
 }
 
+.hover-hero {
+    transition: translate .3s;
+}
+
+.hover-hero:hover {
+    translate: 0 -10%;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+}
+
 /* ! Sezione Carousel */
 #carousel .my-text-blue {
     font-weight: 500;
@@ -103,11 +112,17 @@ header {
     border-radius: 0;
     border: 0;
     border-bottom: 2px solid var(--blue);
+    cursor: pointer;
 }
 
 .controller, .cuffie, .telecomando, .telecamera {
     opacity: 0.7;
 }
+
+.controller:hover, .cuffie:hover, .telecomando:hover, .telecamera:hover {
+    opacity: 1;
+}
+
  /* ! Media query del Carousel per far sparire i paragrafi sotto le immaginine */
 @media screen and (max-width: 576px) {
     .carousel-img p {
