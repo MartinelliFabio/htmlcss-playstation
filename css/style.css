@@ -1,7 +1,9 @@
+/* ! UTILITY */
 :root {
     --black: #000000;
     --light-black: rgba(31, 31, 31, 1);
     --blue: rgba(58, 109, 231, 1);
+    --grey: rgb(90, 90, 90);
     --light-grey: rgba(190, 188, 187, 1);
     --dark-blue: rgba(22, 28, 59, 1);
     --orange: rgba(205, 61, 15, 1);
@@ -9,10 +11,12 @@
     --white: #ffffff;
 }
 
+/* ! COMMON */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ! Background color personali */
 .my-bg-dark-blue {
     background-color: var(--dark-blue);
 }
@@ -38,7 +42,16 @@ body {
 }
 
 .my-bg-orange {
-background-color: var(--orange);
+    background-color: var(--orange);
+}
+
+/* ! Color text personali */
+.my-text-blue {
+    color: var(--blue);
+}
+
+.my-text-grey {
+    color: var(--grey);
 }
 
 img {
@@ -77,3 +90,27 @@ header {
 }
 
 /* ! Sezione Carousel */
+#carousel .my-text-blue {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+#carousel .my-text-grey {
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid var(--blue);
+}
+
+.controller, .cuffie, .telecomando, .telecamera {
+    opacity: 0.7;
+}
+ /* ! Media query del Carousel per far sparire i paragrafi sotto le immaginine */
+@media screen and (max-width: 576px) {
+    .carousel-img p {
+        display: none;
+    }    
+}
