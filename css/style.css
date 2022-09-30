@@ -2,7 +2,7 @@
 :root {
     --black: #000000;
     --light-black: rgba(31, 31, 31, 1);
-    --blue: rgba(58, 109, 231, 1);
+    --blue: #00439c;
     --grey: rgb(90, 90, 90);
     --light-grey: rgba(190, 188, 187, 1);
     --dark-blue: rgba(22, 28, 59, 1);
@@ -185,4 +185,22 @@ header {
 
 .my-font {
     font-size: 35px;
+}
+
+/* ! Sezione Footer Top */
+.logo-footer {
+    width: 100px;
+}
+
+.globe {
+    width: 20px;
+}
+
+.footer-top p {
+    margin-bottom: 0.5rem;
+}
+
+/* ! Sezione Footer Bottom */
+.logo-footer-bottom {
+    width: 150px;
 }
