@@ -26,7 +26,11 @@ body {
 }
 
 .my-bg-dark-blue {
-    background-color: var(--light-grey);
+    background-color: var(--dark-blue);
+}
+
+.my-bg-light-black {
+    background-color: var(--light-black);
 }
 
 .my-bg-blue {
@@ -169,4 +173,9 @@ header {
 
 .my-font {
     font-size: 35px;
+}
+
+/* ! Sezione Nuove Uscite */
+#nuove-uscite p {
+    font-weight: 500;
 }
