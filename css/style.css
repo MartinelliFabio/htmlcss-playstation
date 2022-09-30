@@ -74,13 +74,13 @@ img {
 header {
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 /* ! MAIN */
 
 /* ! Sezione Hero */
-.img-back {
-    min-height: 80vh;
+.img-bg-hero-1 {
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,18 +109,26 @@ header {
 }
 
 .card {
+    cursor: pointer;
+}
+
+.playstation {
     border-radius: 0;
     border: 0;
     border-bottom: 2px solid var(--blue);
-    cursor: pointer;
 }
 
 .controller, .cuffie, .telecomando, .telecamera {
     opacity: 0.7;
+    border: 0;
+    
 }
 
 .controller:hover, .cuffie:hover, .telecomando:hover, .telecamera:hover {
     opacity: 1;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid var(--blue);
 }
 
  /* ! Media query del Carousel per far sparire i paragrafi sotto le immaginine */
@@ -128,4 +136,18 @@ header {
     .carousel-img p {
         display: none;
     }    
+}
+
+/* ! Sezione Hero 2 */
+.img-bg-hero-2 {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-font {
+    font-size: 35px;
 }
