@@ -62,6 +62,10 @@ img {
     max-width: 100%;
 }
 
+p {
+    font-weight: 500;
+}
+
 /* ! HEADER */
 .sony {
     width: 100%;
@@ -106,10 +110,6 @@ header {
 #carousel .my-text-blue {
     font-weight: 500;
     font-size: 0.9em;
-}
-
-#carousel .my-text-grey {
-    font-weight: 500;
 }
 
 #carousel img {
@@ -173,9 +173,4 @@ header {
 
 .my-font {
     font-size: 35px;
-}
-
-/* ! Sezione Nuove Uscite */
-#nuove-uscite p {
-    font-weight: 500;
 }
