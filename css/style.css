@@ -49,6 +49,10 @@ body {
     background-color: var(--orange);
 }
 
+.my-bg-lavish {
+    background-color: var(--lavish-white);
+}
+
 /* ! Color text personali */
 .my-text-blue {
     color: var(--blue);
@@ -64,6 +68,10 @@ img {
 
 p {
     font-weight: 500;
+}
+
+.title-font {
+    font-size: 45px;
 }
 
 /* ! HEADER */
@@ -173,4 +181,11 @@ header {
 
 .my-font {
     font-size: 35px;
+}
+
+/* ! Sezione Esplora */
+@media screen and (max-width: 576px){
+    .plus {
+        display: none;
+    }
 }
