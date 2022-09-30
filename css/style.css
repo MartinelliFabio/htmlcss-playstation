@@ -53,6 +53,10 @@ body {
     background-color: var(--lavish-white);
 }
 
+.my-bg-white {
+    background-color: var(--white);
+}
+
 /* ! Color text personali */
 .my-text-blue {
     color: var(--blue);
@@ -186,6 +190,13 @@ header {
 /* ! Sezione Esplora */
 @media screen and (max-width: 576px){
     .plus {
+        display: none;
+    }
+}
+
+/* ! Sezione Play Now */
+@media screen and (max-width: 576px){
+    .img-play-now {
         display: none;
     }
 }
