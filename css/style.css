@@ -109,6 +109,11 @@ header {
     width: 100px;
 }
 
+.btn-accedi:hover {
+    outline: 3px solid var(--black);
+    outline-offset: 3px;
+}
+
 .lente {
     width: 30px;
 }
@@ -134,6 +139,11 @@ header {
     box-shadow: 0 5px 8px rgba(0,0,0,0.5);
 }
 
+.btn-acquista:hover {
+    outline: 3px solid var(--orange);
+    outline-offset: 3px;
+}
+
 /* ! Sezione Carousel */
 #carousel .my-text-blue {
     font-weight: 500;
@@ -143,6 +153,11 @@ header {
 #carousel img {
     max-width: 80%;
     margin: 0 auto;
+}
+
+.btn-blue:hover {
+    outline: 3px solid var(--blue);
+    outline-offset: 3px;
 }
 
 .card {
@@ -201,6 +216,18 @@ header {
 
 .my-font {
     font-size: 35px;
+}
+
+/* ! Sezioni Esplora */
+.btn-grey:hover {
+    outline: 3px solid var(--grey);
+    outline-offset: 3px;
+}
+
+/* ! Sezioni Play Now */
+.btn-white:hover {
+    outline: 3px solid var(--white);
+    outline-offset: 3px;
 }
 
 /* ! Sezione Footer Top */
