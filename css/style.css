@@ -79,6 +79,28 @@ p {
 }
 
 /* ! HEADER */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.arrow, .arrow-blue {
+    width: 10px;
+}
+
+.nav-hover:hover .arrow {
+    display: none;
+}
+
+.arrow-blue {
+    display: none;
+}
+
+.nav-hover:hover .arrow-blue {
+    display: inline;
+}
+
 .sony {
     width: 100%;
 }
@@ -89,12 +111,6 @@ p {
 
 .lente {
     width: 30px;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
 }
 
 /* ! MAIN */
@@ -164,7 +180,7 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-    .playstation p {
+    .playstation p, .telecamera p {
         margin-bottom: 4.5rem;
     }
     
