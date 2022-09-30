@@ -186,17 +186,3 @@ header {
 .my-font {
     font-size: 35px;
 }
-
-/* ! Sezione Esplora */
-@media screen and (max-width: 576px){
-    .plus {
-        display: none;
-    }
-}
-
-/* ! Sezione Play Now */
-@media screen and (max-width: 576px){
-    .img-play-now {
-        display: none;
-    }
-}
