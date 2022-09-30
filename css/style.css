@@ -108,6 +108,11 @@ header {
     font-weight: 500;
 }
 
+#carousel img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .card {
     cursor: pointer;
 }
@@ -135,7 +140,21 @@ header {
 @media screen and (max-width: 576px) {
     .carousel-img p {
         display: none;
-    }    
+    } 
+    
+    .telecomando, .telecamera, .controller {
+        border-bottom: 2px solid transparent;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .playstation p {
+        margin-bottom: 4.5rem;
+    }
+    
+    .cuffie {
+        border-bottom: 2px solid transparent;
+    }
 }
 
 /* ! Sezione Hero 2 */
